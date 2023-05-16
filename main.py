@@ -20,7 +20,6 @@ next_img = tk.PhotoImage(file="next.gif")
 pause_img = tk.PhotoImage(file="pause.gif")
 play_img = tk.PhotoImage(file="play.gif")
 stop_img = tk.PhotoImage(file="stop.png")
-music_img = tk.PhotoImage(file="")
 
 def select():
     label.config(text=listBox.get("anchor"))
